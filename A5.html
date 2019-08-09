@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+<input type="textbox" name="no"/>
+<input type="button" value="submit" onclick="func()"/>
+<h3 id="i"></h3>
+
+<script>
+function func()
+{
+//document.write("inside");
+var n=(Math.random())*11;
+var random=Math.floor(n);
+var g=document.getElementsByName("no")[0].value;
+if(g==random)
+{
+document.getElementById("i").innerHTML="Good Work";
+}
+else
+{
+document.getElementById("i").innerHTML="Not Matched";
+}
+}
+</script>
+
+</body>
+
+</html>
+https://github.com/KEERTHAN28897/htmlp.git
